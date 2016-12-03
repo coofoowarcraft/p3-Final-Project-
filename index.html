@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Jeff Palmer
+Final Project
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="FinalProject.js"></script>
+  </head>
+  <body background="https://airbusdefenceandspace.com/wp-content/uploads/2016/09/earth-view-from-satellite-space-systems-cover.jpg" lang="en-US">
+  <h1>Private Aerospace Corp.</h1>
+  <h2>Please Log in</h2>
+
+  <!-- username -->
+  <div class="row myinput-row">
+    <div class="form-group" id="usernameGroup">
+      <table class="tb1">
+        <tr>
+          <th class ="th1"><label for="username" class="col-sm-2 control-label">Username</label></th>
+          <th><input type="text" id="user" onchange="validateUsername(this)" class="form-control input-md"
+          placeholder="my username" />
+          <span id="usernameError" class="control-label hidden-message">
+          Error Placeholder (hidden)
+          </span></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<!--password -->
+  <div class="row myinput-row">
+    <div class="form-group" id="passwordGroup">
+      <table class="tb1">
+        <tr>
+          <th class ="th1"><label for="password" class="col-sm-2 control-label">Password</label></th>
+          <th><input type="text" id="pass" onchange="validatePassword(this)" class="form-control input-md"
+          placeholder="my password" />
+          <span id="passwordError" class="control-label hidden-message">
+          Error Placeholder (hidden)
+          </span></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<!--register button -->
+  <div class="nav-tab">
+    <button onclick="Register()"><h3>Register</h3></button>
+  </div>
+
+  <h5> Sources </h5>
+  <center><a href="https://airbusdefenceandspace.com/wp-content/uploads/2016/09/earth-view-from-satellite-space-systems-cover.jpg"><span style="color:white">Image Background</span></a></center>
+
+</body>
+</html>

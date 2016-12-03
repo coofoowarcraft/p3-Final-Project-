@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Jeff Palmer
+Final Project
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="FinalProject.js"></script>
+  </head>
+  <body id="jupiter" lang="en-US">
+
+<h4>Sign off all of your belongings and enjoy your journey to jupiter!</h4>
+
+  <p class="p"></p>
+  <div class="row myinput-row">
+    <div class="form-group" id="moneyGroup">
+      <table class="tb1">
+        <tr>
+          <th class ="th1"><label for="usermoney" class="col-sm-2 control-label">Payment</label></th>
+          <th><input type="text" id="money" onchange="validateMoney()" class="form-control input-md"
+          placeholder="$ amount" />
+          <span id="moneyError" class="control-label hidden-message">
+          Error Placeholder (hidden)
+          </span></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+    <div class="nav-jupiter2">
+      <p class="p"></p>
+      <img src="http://www.inmotionhosting.com/support/images/stories/icons/ecommerce/checkout-light.png" alt="CheckOut" width="300" height="200">
+      <button class="btn btn-default" type="button" onclick="checkOut();">
+      <h2>Checkout.</h2>
+      <h2><span class="glyphicon glyphicon-check" aria-hidden="true"></span></h2>
+    </div>
+    <div class="nav-jupiter2">
+      <p class="p"></p>
+      <img src="https://s3.amazonaws.com/signiant-documentation/desk.com/images/DeskMedia/goBack.png" alt="Back" width="300" height="200">
+      <button class="btn btn-default" type="button" onclick="goBack();">
+      <h2>Go Back.</h2>
+      <h2><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></h2>
+    </div>
+
+<p class="p"></p>
+
+<h5> Sources
+<center><a href="http://imagecache.jpl.nasa.gov/images/640x350/PIA21108-16-640x350.jpg"><span style="color:white">Image jupiter</span></a></center>
+  <div>
+  <center><a href="http://www.inmotionhosting.com/support/images/stories/icons/ecommerce/checkout-light.png"><span style="color:white">Image Checkout</span></a></center>
+  </div>
+  <center><a href="https://s3.amazonaws.com/signiant-documentation/desk.com/images/DeskMedia/goBack.png"><span style="color:white">Image Back</span></a></center>
+</h5>
+  </body>
+</html>

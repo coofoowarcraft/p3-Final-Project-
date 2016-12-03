@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Jeff Palmer
+Final Project
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <!-- BOOTSTRAP (style only)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="FinalProject.js"></script>
+  </head>
+  <body id="page2" lang="en-US">
+
+    <h4>Congratulations you have finished checkout!</h4>
+    <p class="checkout">Your checkout has been completed on </p>
+    <p class="checkout"><script> var today = new Date(); document.write(today); </script> </p>
+
+    <p class="checkout">Please print for your records.</p>
+    <div class="nav-moon2">
+      <button onclick="finalCheckout()"><h2>Click to get your info.</h2></button>
+    </div>
+    <div class="nav-moon2">
+      <button onclick="loadAllUsers()"><h2>Click to get all the usernames through console.</h2></button>
+    </div>
+    <div class="nav-moon2">
+      <button onclick="eraseUsers()"><h2>Click to erase all stored data.</h2></button>
+    </div>
+    <p class="p"></p>
+    <h5> Sources
+      <center><a href="http://wallpaperrs.com/uploads/dreamy-fantasy/spaceship-wide-wallpaper-23254.jpg"><span style="color:white">Image Background</span></a></center>
+    </h5>
+  </body>
+</html>

@@ -1,0 +1,226 @@
+/** Jeff Palmer **/
+
+#page2 {
+  background-image: url("http://wallpaperrs.com/uploads/dreamy-fantasy/spaceship-wide-wallpaper-23254.jpg");
+  background-size: cover;
+}
+
+#mars {
+  background-image: url("http://www.popsci.com/sites/popsci.com/files/styles/medium_1x_/public/rtx1b5ct.jpg?itok=gbjFPQ2u");
+  background-size: cover;
+}
+
+#jupiter {
+  background-image: url("http://imagecache.jpl.nasa.gov/images/640x350/PIA21108-16-640x350.jpg");
+  background-size: cover;
+}
+
+#moon {
+  background-image: url("http://cdn.abclocal.go.com/content/ktrk/images/cms/477614_1280x720.jpg");
+  background-size: cover;
+}
+
+.checkout {
+  font-size: 20px;
+  text-align: center;
+  color: lightgreen;
+}
+.p {
+  border: 4px solid;
+  border-color: black;
+  width: 100%;
+}
+.p2 {
+  border: 4px solid;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-size: 25px;
+}
+.p3 {
+  border: 4px solid;
+  border-style: solid;
+  border-color: black;
+  color: white;
+  font-size: 25px;
+  text-align: right;
+}
+
+.nav-tab {
+  background-color: white;
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-tab:hover {
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cyan;
+}
+.nav-mars {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-mars:hover {
+  width: 100%;
+  background-color: lightsalmon;
+}
+.nav-mars2 {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  text-align: center;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-mars2:hover {
+  width: 100%;
+  background-color: lightsalmon;
+}
+.nav-moon {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-moon:hover {
+  width: 100%;
+  background-color: lightslategrey;
+}
+.nav-moon2 {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  text-align: center;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-moon2:hover {
+  width: 100%;
+  background-color: lightslategrey;
+}
+.nav-jupiter {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-jupiter:hover {
+  width: 100%;
+  background-color: darkgoldenrod;
+}
+.nav-jupiter2 {
+  opacity: 0.9;
+  width: 100%;
+  margin-left: 1%;
+  text-align: center;
+  border: 1px solid;
+  border-style: ridge;
+  border-color: black;
+}
+.nav-jupiter2:hover {
+  width: 100%;
+  background-color: darkgoldenrod;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Verdana;
+  font-weight: bold;
+  border: 5px solid;
+  border-color: dodgerblue;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Verdana;
+  color: black;
+  font-weight: bold;
+}
+h3 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+h5 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration: underline;
+}
+h6 {
+  text-align: center;
+  font-size: 22px;
+  font-family: Verdana;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+a {
+  font-size: 20px;
+}
+
+.form-control {
+  border: 3px solid;
+  border-color: lightblue;
+}
+
+.th1 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tb1 {
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid;
+  border-style: ridge;
+  border-color: black;
+  background-color: lightblue;
+}
+.tb2 {
+  border: 12px solid;
+  border-style: ridge;
+  border-color: black;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span.hidden-message{
+  opacity: 0.0;
+}
+span.shown-message{
+  opacity: 1.0;
+}
